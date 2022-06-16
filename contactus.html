@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>contactus</title>
+    <base href="./">
+    <link rel="shortcut icon" type="image/png" href="icon.png">
+    <link rel="stylesheet" href="/cssfiles/contactus.css">
+    <script>
+        window.appVersion = ""
+        window.defaultDomain = "VisionControl"
+    </script>
+    <script src="dist/permitvision/js/login.js?v=471d63316d54ae8fae1a38c3671484ac13089fc9" type="text/javascript"
+        defer=""></script>
+</head>
+
+<body>
+    <div class="login-container">
+        <div class="panel panel-primary">
+            <div class="panel-heading ">
+                <h3 class="panel-title">Log in</h3>
+            </div>
+            <div class="panel-body clearfix">
+                <form action="login" method="post" id="loginForm" novalidate="" class="form-horizontal">
+                    <div class="form-group">
+                        <div class="col-12">
+                            <div id="errorPanel" class="alert alert-danger" style="display: none">
+                                <span class="glyphicon glyphicon-exclamation-sign"></span>
+                                <p id="errorContent" class="alert-content"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-3 control-label" for="userName" aria-placeholder="costamour name">User</label>
+                        <div class="col-9">
+                            <input id="userName" name="username" type="text" class="form-control" placeholder="UserName"
+                                required="" autofocus="">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-3 control-label" for="password" aria-placeholder="password">Password</label>
+                        <div class="col-9">
+                            <input id="password" name="password" type="password" autocomplete="off" class="form-control"
+                                placeholder="Password" required="">
+                        </div>
+                    </div>
+                    <button id="submitButton" type="submit" class="btn btn-primary">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="logo-app"></div>
+    <div class="logo-customer"></div>
+
+</body>
+
+</html>
